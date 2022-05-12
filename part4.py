@@ -24,3 +24,21 @@ opposite
 '''
 
 #start writing your code below
+number = int(input("Enter a number: "))
+smallest = number
+number = int(input("Enter another number: "))
+if number < smallest:
+  smallest = number
+
+
+if smallest > 0:
+  print("positive")
+  
+elif number < 0:
+  print("negative")
+
+elif smallest == 0 or number == 0:
+  print("zero")
+
+elif smallest < 0 and number > 0:
+  print("opposite")

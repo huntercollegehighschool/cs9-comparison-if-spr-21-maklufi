@@ -23,5 +23,10 @@ number = int(input("Enter another number: "))
 
 if number < smallest:
   smallest = number
+
+third = int(input("Enter another number: "))
+
+if third < smallest:
+  smallest = third
   
-print("The smallest number is ", smallest)
+print("The smallest number is " + str(smallest))
